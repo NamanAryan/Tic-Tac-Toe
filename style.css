@@ -1,0 +1,124 @@
+*{  
+    margin: 0;
+    padding: 0;
+    background-color: #13262f;
+}
+
+h1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: #e9e6ff;
+
+}
+
+.top-buttons{
+    display: flex;
+    margin:25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn{
+    font-weight: 600;
+    color: #e9e6ff;
+    border: 2px transparent;
+    border-radius: 10px;
+    background-color: #2d3a3a;
+    height: 80px;
+    width: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.main-box{
+    display: flex;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.cols{
+    display: flex;
+    max-width: 500px;
+
+}
+.box{
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  140px;
+    height: 140px;
+    background-color: #b0a084;
+    box-shadow: 5px 10px 5px black;
+    border: 2px transparent;
+    color: white;
+    font-size: 4rem;
+}
+
+.container{
+    border-top: 1.5px solid #e9e6ff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-btn:hover{
+    border: 2px solid wheat;
+}
+
+.box:hover{
+    border: 2px solid white;
+}
+
+.msg-container{
+    font-size: 2rem;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.new-game{
+    font-weight: 600;
+    margin-bottom: 600px;
+    color: #e9e6ff;
+    border: 2px transparent;
+    border-radius: 10px;
+    background-color: #2d3a3a;
+    height: 80px;
+    width: 120px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.hide {
+    display: none;
+}
+
+.new-game:hover{
+    border: 2px solid white;
+}
+
+.draw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg-draw{
+    color: white;
+    font-size: 2rem;
+
+}
